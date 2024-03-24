@@ -1,0 +1,673 @@
+/* Estilos comuns para todas as telas */
+/* Aqui você pode definir estilos gerais que se aplicam independentemente do tamanho da tela */
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px */
+    /* Aqui você pode adicionar estilos específicos para telas menores, como alterar a aparência do menu de navegação */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para telas maiores que 600px e menores ou iguais a 1024px */
+    /* Aqui você pode adicionar estilos específicos para telas de tamanho médio, como ajustes de layout */
+  }
+  
+  /* Outras media queries conforme necessário */
+  
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.logo-texto {
+
+    font-family: Arial;
+    font-size: larger;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.menu ul {
+
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+.menu ul a {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    border-radius: 15px ;
+    position: relative;
+}
+
+/*Fim do cabeçalho*/
+
+.h2-principal {
+
+    line-height: 46px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Viga;
+
+}
+
+.conteiner {
+
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+
+.conteiner img {
+    
+    width: 100%;
+}
+
+.centro-image {
+
+    
+    color: white;
+    font-size: 35px;
+    font-family: Viga;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+/*Edição dos botton da imagem principal*/
+
+
+
+.git {
+
+
+    display: inline-block; 
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    top: 70%;
+    left: 50%; 
+    font-size: 16px;
+
+    
+    border-radius: 5px;
+    border-color: chartreuse;
+    cursor: pointer;
+    background-color: chartreuse;
+
+}
+
+.cor-texto {
+
+    color: black;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+.git:hover {
+    background-color: transparent ;
+    color: white;
+}
+
+.pjt {  
+
+
+    display: inline-block; 
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    top: 70%;
+    left: 35%; 
+    font-size: 16px;
+
+    
+    border-radius: 5px;
+    border-color: #004cff ;
+    cursor: pointer;
+    background-color: #004cff;
+
+
+    
+
+}
+
+.cor-texto {
+
+    color: white;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+.pjt:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/*Fim do botton da tela de inicio*/
+
+/*Sobre mim*/
+
+.sobre-mim {
+
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: Viga;
+}
+
+.conteiner1 {
+
+    display: inline-flex;
+
+}
+
+.conteiner1 img {
+
+    width: 300px;
+    height: 300px ;
+    margin-left: 150px;
+
+    border-radius: 200px;
+    
+
+}
+
+.texto-sobre {
+
+    margin-left: 150px;
+    margin-right: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+
+
+}
+
+
+.color {
+
+    color: #12bb12;
+
+}
+
+.teste {
+
+    display: inline-block; 
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 45px;
+    top: 165%;
+    left: 35%; 
+    font-size: 16px;
+    margin-left: 119px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-color: #2196f3 ;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: white;
+    font-family: Viga;
+    margin-top: -10px;
+    
+    
+
+}
+
+.teste:hover {
+
+    background-color: #5fabe9 ;
+    color: white;
+
+
+}
+
+
+
+
+
+.conteiner-conhecimentos {
+
+    background-color: black;
+    padding-top: 60px;
+    height: 450px;
+    
+
+}
+
+.Conhecimentos {
+
+    text-align: center;
+    color: white;
+    font-family: Viga;
+    font-size: 25px;
+
+
+}
+
+/*Conhecimentos*/
+       
+ 
+.front-end {
+
+    margin-top: 50px;
+    color: white;
+    font-family: Viga;
+    margin-right: 750px;
+    display: flex;
+    flex-direction: column;
+    
+}
+  
+.h3-front {
+
+    text-align: center;
+    font-family: Viga;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+
+}
+  
+ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+  
+li {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+  
+  li img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+  }
+  
+  /*Back end*/
+  
+
+.back-end {
+
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Viga;
+
+
+}
+.back-h3 {
+
+    margin-top: -170px;
+    margin-bottom: 10px;
+
+}
+  
+.back-end ul {
+
+    margin-left: 0;
+
+}
+  
+.back-end li {
+
+    margin-bottom: 10px;
+    margin-left: -110px;
+
+}
+  
+.back-end li img {
+
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+
+}
+
+/*Desenvolvimento mobile*/
+
+.mobile {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Viga;
+
+
+}
+.mobile-h3 {
+
+    margin-top: -300px;
+    margin-bottom: 10px;
+    margin-left: 750px;
+
+}
+  
+.mobile ul {
+
+    margin-left: 0;
+
+}
+  
+.mobile li {
+
+    margin-bottom: 10px;
+    margin-left: 680px;
+
+}
+  
+.mobile li img {
+
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+
+}
+
+
+/*Meu Projetos*/
+
+.projetos-h2 {
+
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+
+.container-projetos {
+
+    word-spacing: 20px;
+
+}
+
+
+.img-sidarta {
+
+    
+    margin-left: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+
+}
+
+.img-sidarta:hover {
+
+    transform: scale(1.10);
+
+}
+
+.img-dentista {
+
+    cursor: pointer;
+    
+}
+
+.img-dentista:hover {
+
+    transform: scale(1.10);
+
+}
+
+.img-drop {
+
+    cursor: pointer;
+    
+}
+
+.img-drop:hover {
+
+    transform: scale(1.10);
+
+}
+
+
+/*contato*/
+
+
+.container-contato {
+
+    margin-top: 55px;
+    padding-top: 60px;
+    height: 550px;
+    background-color: rgb(58, 56, 56) ;
+
+}
+
+.contato-h2{
+
+    font-family: Viga;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+form {
+    font-family: Viga;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input[type="text"], input[type="email"] {
+    width: 45%;
+    padding: 15px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+textarea {
+    width: 70%;
+    padding: 15px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 150px;
+    color: white;
+}
+
+input[type="submit"] {
+    
+    width: 20%;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+input[type="text"]#fname::placeholder, input[type="email"]#email::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="text"]#message::placeholder {
+    font-size: 20px;
+}
+
+
+
+/*Infomrações*/
+
+
+
+.inf-contato {
+
+    font-family: Viga;
+    font-size: 25px;
+    margin-left: 70%;
+    margin-top: -400px;
+    color: white;
+   
+    
+
+}
+
+.localização {
+
+    color: greenyellow;
+    font-family: Poppins;
+    font-size: 22.4px;
+    display: flex;
+    align-items: center;
+    margin-left: 77.5%;
+    
+
+}
+
+.cosmorama {
+
+    color: white;
+    margin-left: 80.5%;
+    font-family: Poppins;
+    font-size: 16px;
+    
+}
+
+.telefone {
+
+    color: greenyellow;
+    font-family: Poppins;
+    font-size: 22.4px;
+    display: flex;
+    align-items: center;
+    margin-left: 80.5%;
+    padding-top: 20px;
+
+    
+
+
+}
+
+.numero-tel {
+
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-left: 80.5%;
+
+}
+
+.e-mail {
+
+    color: greenyellow;
+    font-family: Poppins;
+    font-size: 22.4px;
+    display: flex;
+    align-items: center;
+    margin-left: 82%;
+    padding-top: 20px;
+}
+
+.email {
+
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-left: 72%;
+
+}
+
+/*-------------------------------------*/
+
+
+.fim {
+
+    background-color: black;
+    margin-top: 110px;
+    padding-top: 20px;
+
+}
+
+.text-fim {
+
+    font-family: poppins;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+
+}
